@@ -12,4 +12,6 @@
   --shadow-color: #fff;
   --difference-color: #fff;
   --sparks-color: #ff0000;
+  --wdth-min: 400;
+  --wdth-max: 700;
 }

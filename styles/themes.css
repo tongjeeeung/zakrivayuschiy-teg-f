@@ -18,6 +18,8 @@
   --shadow-color: #fff;
   --difference-color: #fff;
   --sparks-color: #ff0000;
+  --wdth-min: 400;
+  --wdth-max: 700;
 }
 
 :root.theme-dark {
@@ -33,6 +35,8 @@
   --shadow-color: #000;
   --difference-color: #00CC14;
   --sparks-color: #ff0000;
+  --wdth-min: 465;
+  --wdth-max: 785;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -49,5 +53,7 @@
     --shadow-color: #000;
     --difference-color: #00CC14;
     --sparks-color: #ff0000;
+    --wdth-min: 465;
+    --wdth-max: 785;
   }
 }
