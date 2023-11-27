@@ -56,13 +56,10 @@
 
 .header-link {
   text-decoration: none;
-}
-
-.header__title {
   font-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
 }
 
-.header__subtitle {
+.header__title {
   margin-block-end: 2px;
   font-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
 }
@@ -177,10 +174,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .card__icon-button {
-  border: none;
   block-size: 38px;
 }
 
@@ -208,11 +205,7 @@
   inline-size: 100%;
 }
 
-.card__icon-button,.card__like-button:hover {
-  cursor: pointer;
-}
-
-.card__icon-button,.card__like-button:focus {
+.button:focus {
   outline: none;
 }
 
@@ -294,16 +287,9 @@
 
 .footer__button {
   gap: 8px;
-  inline-size: 100%;
-  block-size: 100%;
   position: relative;
-  cursor: pointer;
   background-color: var(--page-bg-color);
   border: 2px solid var(--accent-color);
-}
-
-.footer__button:focus {
-  outline: none;
 }
 
 .footer__button:focus-visible {
@@ -362,6 +348,8 @@
 
 .dialog-button {
   min-block-size: 38px;
+  inline-size: 100%;
+  block-size: 100%;
 }
 
 .footer__dialog[open]::backdrop {

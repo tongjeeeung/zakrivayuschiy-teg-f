@@ -76,7 +76,7 @@
 }
 
 .like-icon.is-liked .heart {
-  animation: increaseFromSmallToLargeHeart 0.3s ease-in;
+  animation: increaseFromSmallToLargeHeart 0.3s alternate ease-in;
   transform-origin: center;
   animation-delay: 0.1s;
 }
